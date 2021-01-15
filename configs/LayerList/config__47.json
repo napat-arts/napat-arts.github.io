@@ -1,0 +1,84 @@
+{
+  "showTitle": true,
+  "showBasemap": false,
+  "showLegend": true,
+  "expandAllLayersByDefault": false,
+  "contextMenu": {
+    "ZoomTo": true,
+    "Transparency": false,
+    "SetVisibilityRange": false,
+    "EnableOrDisablePopup": false,
+    "ControlLabels": true,
+    "MoveupOrMovedown": false,
+    "OpenAttributeTable": true,
+    "DescriptionOrShowItemDetailsOrDownload": false
+  },
+  "layerOptions": {
+    "CondoExcel_Final131220_9058_8809_5906": {
+      "display": true
+    },
+    "CondoExcel_Final131220_9058_8809": {
+      "display": true
+    },
+    "CondoExcel_Final131220_9058": {
+      "display": true
+    },
+    "CondoExcel_13dec_3842": {
+      "display": false
+    },
+    "รถไฟฟ้า_9199": {
+      "display": false
+    },
+    "รถไฟฟ้า_5850": {
+      "display": false
+    },
+    "ห้าง_5623": {
+      "display": true
+    },
+    "สวนสาธารณะ_8266": {
+      "display": true
+    },
+    "สถานีตำรวจกทม_1": {
+      "display": true
+    },
+    "สถานศึกษา_4539": {
+      "display": true
+    },
+    "สถานศึกษา_3841": {
+      "display": true
+    },
+    "ศาสนา_5448": {
+      "display": true
+    },
+    "ศาสนา_8336": {
+      "display": true
+    },
+    "ศาสนา_487": {
+      "display": true
+    },
+    "ตลาด_980": {
+      "display": true
+    },
+    "ตลาด_4251": {
+      "display": true
+    },
+    "ไปรษณีย์_515": {
+      "display": true
+    },
+    "โรงพยาบาลกทม_8930": {
+      "display": true
+    },
+    "โรงพยาบาลกทม_1985": {
+      "display": true
+    },
+    "โรงพยาบาลกทม_4408": {
+      "display": true
+    },
+    "NP200720ถนนกทม_1947": {
+      "display": false
+    },
+    "เขตกทม_6263": {
+      "display": false
+    }
+  }
+}

@@ -1,0 +1,826 @@
+{
+  "hideLayersAfterWidgetClosed": false,
+  "labelTasks": "เงื่อนไข",
+  "labelResults": "ผลลัพธ์",
+  "showFilterLabel": true,
+  "criteiraLabel": "คุณสมบัติของคอนโดมิเนียม",
+  "spatialFilterLabel": "สถานที่",
+  "queries": [
+    {
+      "url": "",
+      "name": "เงื่อนไขเว้นว่างได้",
+      "icon": {
+        "color": [
+          0,
+          192,
+          169,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            192,
+            169,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "logicalOperator": "AND",
+            "parts": [
+              {
+                "fieldObj": {
+                  "name": "Lowest_Price",
+                  "label": "Lowest_Price",
+                  "dateFormat": "",
+                  "shortType": "number",
+                  "type": "esriFieldTypeInteger"
+                },
+                "operator": "numberOperatorIsAtLeast",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "value",
+                  "value": null
+                },
+                "interactiveObj": {
+                  "prompt": "ราคาขายต่ำสุด",
+                  "hint": "",
+                  "cascade": "none"
+                },
+                "caseSensitive": false
+              },
+              {
+                "fieldObj": {
+                  "name": "Highest_Price",
+                  "label": "Highest_Price",
+                  "dateFormat": "",
+                  "shortType": "number",
+                  "type": "esriFieldTypeInteger"
+                },
+                "operator": "numberOperatorIsAtMost",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "value",
+                  "value": null
+                },
+                "interactiveObj": {
+                  "prompt": "ราคาขายสูงสุด",
+                  "hint": "",
+                  "cascade": "none"
+                },
+                "caseSensitive": false
+              }
+            ]
+          },
+          {
+            "logicalOperator": "AND",
+            "parts": [
+              {
+                "fieldObj": {
+                  "name": "Lowest_Rental",
+                  "label": "Lowest_Rental",
+                  "dateFormat": "",
+                  "shortType": "number",
+                  "type": "esriFieldTypeInteger"
+                },
+                "operator": "numberOperatorIsAtLeast",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "value",
+                  "value": null
+                },
+                "interactiveObj": {
+                  "prompt": "ค่าเช่ารายเดือนต่ำสุด",
+                  "hint": "",
+                  "cascade": "none"
+                },
+                "caseSensitive": false
+              },
+              {
+                "fieldObj": {
+                  "name": "Highest_Rental",
+                  "label": "Highest_Rental",
+                  "dateFormat": "",
+                  "shortType": "number",
+                  "type": "esriFieldTypeInteger"
+                },
+                "operator": "numberOperatorIsAtMost",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "value",
+                  "value": null
+                },
+                "interactiveObj": {
+                  "prompt": "ค่าเช่ารายเดือนสูงสุด",
+                  "hint": "",
+                  "cascade": "none"
+                },
+                "caseSensitive": false
+              }
+            ]
+          },
+          {
+            "logicalOperator": "AND",
+            "parts": [
+              {
+                "fieldObj": {
+                  "name": "Size_Minimum",
+                  "label": "Size_Minimum",
+                  "dateFormat": "",
+                  "shortType": "number",
+                  "type": "esriFieldTypeDouble"
+                },
+                "operator": "numberOperatorIsAtLeast",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "value",
+                  "value": null
+                },
+                "interactiveObj": {
+                  "prompt": "ขนาดห้อง (เล็กสุด)",
+                  "hint": "",
+                  "cascade": "none"
+                },
+                "caseSensitive": false
+              },
+              {
+                "fieldObj": {
+                  "name": "Size_Maximun",
+                  "label": "Size_Maximun",
+                  "dateFormat": "",
+                  "shortType": "number",
+                  "type": "esriFieldTypeDouble"
+                },
+                "operator": "numberOperatorIsAtMost",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "value",
+                  "value": null
+                },
+                "interactiveObj": {
+                  "prompt": "ขนาดห้อง (ใหญ่สุด)",
+                  "hint": "",
+                  "cascade": "none"
+                },
+                "caseSensitive": false
+              }
+            ]
+          },
+          {
+            "logicalOperator": "AND",
+            "parts": [
+              {
+                "fieldObj": {
+                  "name": "Year",
+                  "label": "Year",
+                  "dateFormat": "",
+                  "shortType": "number",
+                  "type": "esriFieldTypeInteger"
+                },
+                "operator": "numberOperatorIsAtLeast",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "value",
+                  "value": null
+                },
+                "interactiveObj": {
+                  "prompt": "ปีที่สร้าง (อย่างน้อย)",
+                  "hint": "",
+                  "cascade": "none"
+                },
+                "caseSensitive": false
+              },
+              {
+                "fieldObj": {
+                  "name": "Year",
+                  "label": "Year",
+                  "dateFormat": "",
+                  "shortType": "number",
+                  "type": "esriFieldTypeInteger"
+                },
+                "operator": "numberOperatorIsAtMost",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "value",
+                  "value": null
+                },
+                "interactiveObj": {
+                  "prompt": "ปีที่สร้าง (อย่างมาก)",
+                  "hint": "",
+                  "cascade": "none"
+                },
+                "caseSensitive": false
+              }
+            ]
+          },
+          {
+            "logicalOperator": "AND",
+            "parts": [
+              {
+                "fieldObj": {
+                  "name": "Stair",
+                  "label": "Stair",
+                  "dateFormat": "",
+                  "shortType": "number",
+                  "type": "esriFieldTypeInteger"
+                },
+                "operator": "numberOperatorIsAtLeast",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "value",
+                  "value": null
+                },
+                "interactiveObj": {
+                  "prompt": "จำนวนชั้น (ขั้นต่ำ)",
+                  "hint": "",
+                  "cascade": "none"
+                },
+                "caseSensitive": false
+              },
+              {
+                "fieldObj": {
+                  "name": "Stair",
+                  "label": "Stair",
+                  "dateFormat": "",
+                  "shortType": "number",
+                  "type": "esriFieldTypeInteger"
+                },
+                "operator": "numberOperatorIsAtMost",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "value",
+                  "value": null
+                },
+                "interactiveObj": {
+                  "prompt": "จำนวนชั้น (สูงสุด)",
+                  "hint": "",
+                  "cascade": "none"
+                },
+                "caseSensitive": false
+              }
+            ]
+          },
+          {
+            "logicalOperator": "AND",
+            "parts": [
+              {
+                "fieldObj": {
+                  "name": "Unit",
+                  "label": "Unit",
+                  "dateFormat": "",
+                  "shortType": "number",
+                  "type": "esriFieldTypeInteger"
+                },
+                "operator": "numberOperatorIsAtLeast",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "value",
+                  "value": null
+                },
+                "interactiveObj": {
+                  "prompt": "จำนวนยูนิต (ขั้นต่ำ)",
+                  "hint": "",
+                  "cascade": "none"
+                },
+                "caseSensitive": false
+              },
+              {
+                "fieldObj": {
+                  "name": "Unit",
+                  "label": "Unit",
+                  "dateFormat": "",
+                  "shortType": "number",
+                  "type": "esriFieldTypeInteger"
+                },
+                "operator": "numberOperatorIsAtMost",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "value",
+                  "value": null
+                },
+                "interactiveObj": {
+                  "prompt": "จำนวนยูนิต (สูงสุด)",
+                  "hint": "",
+                  "cascade": "none"
+                },
+                "caseSensitive": false
+              }
+            ]
+          },
+          {
+            "fieldObj": {
+              "name": "Pool",
+              "label": "Pool",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "สระว่ายน้ำ",
+              "hint": "มี = y | ไม่มี = n",
+              "cascade": "previous"
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "Sauna",
+              "label": "Sauna",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "ซาวน่า",
+              "hint": "มี = y | ไม่มี = n",
+              "cascade": "previous"
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "Fitness",
+              "label": "Fitness",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "ฟิตเนส",
+              "hint": "มี = y | ไม่มี = n",
+              "cascade": "previous"
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "Park",
+              "label": "Park",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "สวนหย่อม",
+              "hint": "มี = y | ไม่มี = n",
+              "cascade": "previous"
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "Playground",
+              "label": "Playground",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "สนามเด็กเล่น",
+              "hint": "มี = y | ไม่มี = n",
+              "cascade": "previous"
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "Minimart",
+              "label": "Minimart",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "ร้านสะดวกซื้อ",
+              "hint": "มี = y | ไม่มี = n",
+              "cascade": "previous"
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "Wifi",
+              "label": "Wifi",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "Wifi",
+              "hint": "มี = y | ไม่มี = n",
+              "cascade": "previous"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": "",
+        "displaySQL": ""
+      },
+      "showSQL": false,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": {
+          "default": true,
+          "relationships": [
+            {
+              "relationship": "SPATIAL_REL_INTERSECTS",
+              "label": "intersect"
+            }
+          ],
+          "buffer": {
+            "defaultDistance": 600,
+            "defaultUnit": "METERS"
+          }
+        },
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "title": "{Name_TH}",
+        "fieldInfos": [
+          {
+            "fieldName": "id",
+            "label": "id",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "x",
+            "label": "x",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "y",
+            "label": "y",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Name_English",
+            "label": "Name_English",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Name_TH",
+            "label": "Name_TH",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Picture",
+            "label": "Picture",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Tel",
+            "label": "Tel",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Website",
+            "label": "Website",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Address",
+            "label": "Address",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Year",
+            "label": "Year",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Stair",
+            "label": "Stair",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Unit",
+            "label": "Unit",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Size_Minimum",
+            "label": "Size_Minimum",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Size_Maximun",
+            "label": "Size_Maximun",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Room_Maximum",
+            "label": "Room_Maximum",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Toilet_Maximum",
+            "label": "Toilet_Maximum",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Lowest_Price",
+            "label": "Lowest_Price",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Highest_Price",
+            "label": "Highest_Price",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Lowest_Rental",
+            "label": "Lowest_Rental",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Highest_Rental",
+            "label": "Highest_Rental",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Car_Parking",
+            "label": "Car Parking",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Security_Guard",
+            "label": "Security Guard",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "CCTV",
+            "label": "CCTV",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Pool",
+            "label": "Pool",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Sauna",
+            "label": "Sauna",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Fitness",
+            "label": "Fitness",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Park",
+            "label": "Park",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Playground",
+            "label": "Playground",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Minimart",
+            "label": "Minimart",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Wifi",
+            "label": "Wifi",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ObjectId",
+            "label": "ObjectId",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          }
+        ],
+        "description": null,
+        "showAttachments": false,
+        "mediaInfos": [],
+        "readFromWebMap": false
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          0,
+          192,
+          169,
+          125
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            192,
+            169,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "canModifySymbol": false,
+      "enableExport": true,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "CondoExcel_012021_TSG01_3844",
+      "customResultName": false
+    }
+  ]
+}

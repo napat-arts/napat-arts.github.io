@@ -1,0 +1,77 @@
+{
+  "legend": {
+    "arrangement": 0,
+    "autoUpdate": true,
+    "respectCurrentMapScale": true
+  },
+  "layerState": {
+    "CondoExcel_Final131220_9058": {
+      "selected": true
+    },
+    "CondoExcel_13dec_3842": {
+      "selected": false
+    },
+    "รถไฟฟ้า_9199": {
+      "selected": true
+    },
+    "รถไฟฟ้า_5850": {
+      "selected": true
+    },
+    "ห้าง_5623": {
+      "selected": true
+    },
+    "สวนสาธารณะ_8266": {
+      "selected": true
+    },
+    "สถานีตำรวจกทม_1": {
+      "selected": true
+    },
+    "สถานศึกษา_4539": {
+      "selected": true
+    },
+    "สถานศึกษา_3841": {
+      "selected": true
+    },
+    "ศาสนา_5448": {
+      "selected": true
+    },
+    "ศาสนา_8336": {
+      "selected": true
+    },
+    "ศาสนา_487": {
+      "selected": true
+    },
+    "ตลาด_980": {
+      "selected": true
+    },
+    "ตลาด_4251": {
+      "selected": true
+    },
+    "ไปรษณีย์_515": {
+      "selected": true
+    },
+    "โรงพยาบาลกทม_8930": {
+      "selected": true
+    },
+    "โรงพยาบาลกทม_1985": {
+      "selected": true
+    },
+    "โรงพยาบาลกทม_4408": {
+      "selected": true
+    },
+    "NP200720ถนนกทม_1947": {
+      "selected": false
+    },
+    "เขตกทม_6263": {
+      "selected": false
+    },
+    "CondoExcel_Final131220_9058_8809_5906": {
+      "selected": true
+    },
+    "CondoExcel_Final131220_9058_8809": {
+      "selected": true
+    }
+  },
+  "syncWithWebmap": false,
+  "showLegendForBasemap": false
+}
